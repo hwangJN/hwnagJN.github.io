@@ -1,0 +1,112 @@
+.bgImg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.hidden{
+    visibility: hidden;
+    height: 0ch;
+    /* display: none; */
+}
+
+#title{
+    text-align: center;
+    color:cornsilk;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2pc;
+    text-shadow: 3px 3px 0 rgb(83, 83, 83);
+}
+
+
+.btn{
+    background-color: black;
+    color:rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#login-form input{
+    border-bottom: 3px solid black;
+    text-align: center;
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#greeting{
+    color:rgb(247, 64, 134);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 0 rgb(83, 83, 83);
+    text-align: center;
+    margin: 1cm;
+    font-weight:900;
+    font-size:40px
+}
+#login-form{
+    text-align: center;
+}
+
+#clock{
+    float:left;
+    display: block;
+    text-align: center;
+    /* line-height 와 height를 동일하게 처리  */
+    line-height: 70px; 
+    color: white;
+    font-size: 20px;
+    height: 350px;
+	width: 300px;
+    text-shadow: 1px 1px 0 rgb(83, 83, 83);
+    border: 6px solid indigo;
+    margin: 1cm;
+    background-color: rgba(250, 235, 215, 0.37);
+    font-weight: 700;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#TODO{
+    float:left;
+    display: block;
+    text-align: center;
+    line-height: 40px; 
+    color: white;
+    font-size: 20px;
+    height: 350px;
+	width: 600px;
+    text-shadow: 1px 1px 0 rgb(83, 83, 83);
+    border: 6px solid indigo;
+    margin: 1cm;
+    background-color: rgba(250, 235, 215, 0.37);
+    font-weight: 700;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#TODO input{
+    width: 300px;
+    height: 40px;
+    margin:4%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+#weather{
+    float:left;
+    display: block;
+    text-align: center;
+    line-height: 100px; 
+    color: white;
+    font-size: 20px;
+    height: 350px;
+	width: 250px;
+    text-shadow: 1px 1px 0 rgb(83, 83, 83);
+    border: 6px solid indigo;
+    margin: 1cm;
+    background-color: rgba(250, 235, 215, 0.37);
+    font-weight: 700;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

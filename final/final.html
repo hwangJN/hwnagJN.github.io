@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="final.css">
+    <title>To-Do!</title>
+</head>
+
+<body>
+    
+    <!-- 처음 화면 메세지 -->
+    <div id="title">
+        <h1>Today's My ToDo</h1>
+    </div>
+
+    <!-- 로그인/greeting -->
+    <form class="hidden" id="login-form"> 
+        <input required maxlength="15" type="text" 
+         placeholder="What is your name?"/>
+        <button class="btn" type="submit">Login</button>
+    </form>
+    <h1 class="hidden" id="greeting"></h1>
+    
+    <!-- time -->
+    <div class="hidden" id="clock"></div>
+
+    <!-- todo  -->
+    <div id="TODO" class="hidden">
+        <form id="todo-form">
+            <input type="text" placeholder="Write a To Do and Press Enter!" required />
+        </form>
+        <ul id="todo-list"></ul>
+    </div>
+    
+    
+
+    <div id="weather" class="hidden">
+        <span></span>
+        <span></span>
+    </div>
+
+    
+    <script src="login.js"></script>
+    <script src="background.js"></script>
+    <script src="clock.js"></script>
+    <script src="todo.js"></script>
+    <script src="weather.js"></script>
+
+</body>
+</html>
